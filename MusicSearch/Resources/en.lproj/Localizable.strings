@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  MusicSearch
+
+  Created by Nickolay Migel on 11/09/16.
+  Copyright © 2016 Nickolay Migel. All rights reserved.
+*/
+
+"Net.ConnectivityError" = "Please check your Internet connection";
+"Net.APIError" = "Something went wrong. Please try again later.";
+
+"Progress.Title.Searching" = "Searching...";
+"Progress.Title.Nothing" = "Nothing found...";
+
+"TrackList.SearchBar.Placeholder" = "Track search";
+
+"SearchList.Title" = "Search history";
+
+"TrackProfile.Title" = "Track Profile";
+"TrackProfile.TrackName" = "Track: %@";
+"TrackProfile.AlbumName" = "Album: %@, %@";
+"TrackProfile.GenreName" = "Genre: %@";

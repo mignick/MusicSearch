@@ -1,0 +1,21 @@
+//
+//  MusicSearch.pch
+//  MusicSearch
+//
+//  Created by Nickolay Migel on 11/09/16.
+//  Copyright © 2016 Nickolay Migel. All rights reserved.
+//
+
+#import <UIAlertController+Blocks.h>
+#import <KZPropertyMapper.h>
+#import <KZPropertyDescriptor+Validators.h>
+#import <SVProgressHUD.h>
+
+#import "MUZConstants.h"
+
+#import "MUZDatabaseManager.h"
+#import "MUZNetworkManager.h"
+
+#import "MUZDependencyProtocols.h"
+
+#import "UIViewController+MUZAlert.h"

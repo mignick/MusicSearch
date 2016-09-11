@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954763CA1D8595CB0063E643 /* UIViewController+MUZAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 954763C91D8595CB0063E643 /* UIViewController+MUZAlert.m */; };
+		954763CD1D85975A0063E643 /* MUZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 954763CC1D85975A0063E643 /* MUZConstants.m */; };
+		956D9C5A1D8462AE00BC1200 /* MUZViewControllerTransitionPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C591D8462AE00BC1200 /* MUZViewControllerTransitionPresenter.m */; };
+		956D9C5D1D84632D00BC1200 /* MUZViewControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C5C1D84632D00BC1200 /* MUZViewControllerTransition.m */; };
+		956D9C601D84654F00BC1200 /* MUZViewControllerPresentationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C5F1D84654F00BC1200 /* MUZViewControllerPresentationManager.m */; };
+		956D9C641D8469DB00BC1200 /* MUZViewControllerBounceDownTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C631D8469DB00BC1200 /* MUZViewControllerBounceDownTransition.m */; };
+		956D9C671D846F2E00BC1200 /* MUZViewControllerDefaultPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C661D846F2E00BC1200 /* MUZViewControllerDefaultPresentationController.m */; };
+		956D9C6D1D847BA900BC1200 /* MUZViewControllerTransitionStyleConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C6C1D847BA900BC1200 /* MUZViewControllerTransitionStyleConfiguration.m */; };
+		956D9C901D857B0C00BC1200 /* MUZSearchCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C791D857B0C00BC1200 /* MUZSearchCellViewModel.m */; };
+		956D9C911D857B0C00BC1200 /* MUZSearchControllerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C7B1D857B0C00BC1200 /* MUZSearchControllerViewModel.m */; };
+		956D9C921D857B0C00BC1200 /* MUZSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C7D1D857B0C00BC1200 /* MUZSearchTableViewCell.m */; };
+		956D9C931D857B0C00BC1200 /* MUZSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C7F1D857B0C00BC1200 /* MUZSearchViewController.m */; };
+		956D9C941D857B0C00BC1200 /* MUZSearchViewControllerPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C811D857B0C00BC1200 /* MUZSearchViewControllerPresentationController.m */; };
+		956D9C951D857B0C00BC1200 /* MUZTrackProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C841D857B0C00BC1200 /* MUZTrackProfileViewController.m */; };
+		956D9C961D857B0C00BC1200 /* MUZTrackCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C871D857B0C00BC1200 /* MUZTrackCellViewModel.m */; };
+		956D9C971D857B0C00BC1200 /* MUZTracksControllerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C891D857B0C00BC1200 /* MUZTracksControllerViewModel.m */; };
+		956D9C981D857B0C00BC1200 /* MUZTracksSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C8B1D857B0C00BC1200 /* MUZTracksSearchBar.m */; };
+		956D9C991D857B0C00BC1200 /* MUZTracksTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C8D1D857B0C00BC1200 /* MUZTracksTableViewCell.m */; };
+		956D9C9A1D857B0C00BC1200 /* MUZTracksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956D9C8F1D857B0C00BC1200 /* MUZTracksViewController.m */; };
+		95713FA41D818C1100E64A5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713F981D818C1100E64A5A /* AppDelegate.m */; };
+		95713FA61D818C1100E64A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95713FA01D818C1100E64A5A /* Assets.xcassets */; };
+		95713FA81D818C1100E64A5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713FA31D818C1100E64A5A /* main.m */; };
+		95713FAA1D818C6800E64A5A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95713FA91D818C6800E64A5A /* Launch Screen.storyboard */; };
+		95713FAC1D818CAD00E64A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95713FAB1D818CAD00E64A5A /* Main.storyboard */; };
+		95713FAF1D81B64E00E64A5A /* MUZNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713FAE1D81B64E00E64A5A /* MUZNetworkManager.m */; };
+		95713FB61D81C84700E64A5A /* MUZDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713FB51D81C84700E64A5A /* MUZDatabaseManager.m */; };
+		95713FBA1D82A9EC00E64A5A /* MUZDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95713FB81D82A9EC00E64A5A /* MUZDataModel.xcdatamodeld */; };
+		95713FBE1D82BACA00E64A5A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95713FC01D82BACA00E64A5A /* Localizable.strings */; };
+		95713FC41D82CEBC00E64A5A /* MUZResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713FC31D82CEBC00E64A5A /* MUZResponse.m */; };
+		95713FC81D82CF0800E64A5A /* MUZFetchTracksResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713FC71D82CF0800E64A5A /* MUZFetchTracksResponse.m */; };
+		95713FD21D82D53C00E64A5A /* MUZSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713FCC1D82D53C00E64A5A /* MUZSearch.m */; };
+		95713FD41D82D53C00E64A5A /* MUZTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713FD01D82D53C00E64A5A /* MUZTrack.m */; };
+		95713FD81D82FF0100E64A5A /* MUZManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713FD71D82FF0100E64A5A /* MUZManagedObject.m */; };
+		95713FDD1D8411F400E64A5A /* MUZFetchedResultsControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 95713FDC1D8411F400E64A5A /* MUZFetchedResultsControllerDataSource.m */; };
+		B88F2ECBF4A097A1EFD3651C /* libPods-MusicSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8027BDB01FCAEC9E9460F43 /* libPods-MusicSearch.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A398A7045CBF55CB62ACDAE /* Pods-MusicSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSearch/Pods-MusicSearch.release.xcconfig"; sourceTree = "<group>"; };
+		80F839DBFFA1ACB649C31952 /* Pods-MusicSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicSearch/Pods-MusicSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		954763C71D85937A0063E643 /* MUZConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUZConstants.h; sourceTree = "<group>"; };
+		954763C81D8595CB0063E643 /* UIViewController+MUZAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MUZAlert.h"; path = "Categories/UIViewController+MUZAlert.h"; sourceTree = "<group>"; };
+		954763C91D8595CB0063E643 /* UIViewController+MUZAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MUZAlert.m"; path = "Categories/UIViewController+MUZAlert.m"; sourceTree = "<group>"; };
+		954763CC1D85975A0063E643 /* MUZConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZConstants.m; sourceTree = "<group>"; };
+		956D9C581D8462AE00BC1200 /* MUZViewControllerTransitionPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZViewControllerTransitionPresenter.h; sourceTree = "<group>"; };
+		956D9C591D8462AE00BC1200 /* MUZViewControllerTransitionPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZViewControllerTransitionPresenter.m; sourceTree = "<group>"; };
+		956D9C5B1D84632D00BC1200 /* MUZViewControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZViewControllerTransition.h; sourceTree = "<group>"; };
+		956D9C5C1D84632D00BC1200 /* MUZViewControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZViewControllerTransition.m; sourceTree = "<group>"; };
+		956D9C5E1D84654F00BC1200 /* MUZViewControllerPresentationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZViewControllerPresentationManager.h; sourceTree = "<group>"; };
+		956D9C5F1D84654F00BC1200 /* MUZViewControllerPresentationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZViewControllerPresentationManager.m; sourceTree = "<group>"; };
+		956D9C621D8469DB00BC1200 /* MUZViewControllerBounceDownTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZViewControllerBounceDownTransition.h; sourceTree = "<group>"; };
+		956D9C631D8469DB00BC1200 /* MUZViewControllerBounceDownTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZViewControllerBounceDownTransition.m; sourceTree = "<group>"; };
+		956D9C651D846F2E00BC1200 /* MUZViewControllerDefaultPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZViewControllerDefaultPresentationController.h; sourceTree = "<group>"; };
+		956D9C661D846F2E00BC1200 /* MUZViewControllerDefaultPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZViewControllerDefaultPresentationController.m; sourceTree = "<group>"; };
+		956D9C6B1D847BA900BC1200 /* MUZViewControllerTransitionStyleConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZViewControllerTransitionStyleConfiguration.h; sourceTree = "<group>"; };
+		956D9C6C1D847BA900BC1200 /* MUZViewControllerTransitionStyleConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZViewControllerTransitionStyleConfiguration.m; sourceTree = "<group>"; };
+		956D9C731D855A6500BC1200 /* MUZDependencyProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZDependencyProtocols.h; sourceTree = "<group>"; };
+		956D9C781D857B0C00BC1200 /* MUZSearchCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZSearchCellViewModel.h; sourceTree = "<group>"; };
+		956D9C791D857B0C00BC1200 /* MUZSearchCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZSearchCellViewModel.m; sourceTree = "<group>"; };
+		956D9C7A1D857B0C00BC1200 /* MUZSearchControllerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZSearchControllerViewModel.h; sourceTree = "<group>"; };
+		956D9C7B1D857B0C00BC1200 /* MUZSearchControllerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZSearchControllerViewModel.m; sourceTree = "<group>"; };
+		956D9C7C1D857B0C00BC1200 /* MUZSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZSearchTableViewCell.h; sourceTree = "<group>"; };
+		956D9C7D1D857B0C00BC1200 /* MUZSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZSearchTableViewCell.m; sourceTree = "<group>"; };
+		956D9C7E1D857B0C00BC1200 /* MUZSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZSearchViewController.h; sourceTree = "<group>"; };
+		956D9C7F1D857B0C00BC1200 /* MUZSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZSearchViewController.m; sourceTree = "<group>"; };
+		956D9C801D857B0C00BC1200 /* MUZSearchViewControllerPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZSearchViewControllerPresentationController.h; sourceTree = "<group>"; };
+		956D9C811D857B0C00BC1200 /* MUZSearchViewControllerPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZSearchViewControllerPresentationController.m; sourceTree = "<group>"; };
+		956D9C831D857B0C00BC1200 /* MUZTrackProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZTrackProfileViewController.h; sourceTree = "<group>"; };
+		956D9C841D857B0C00BC1200 /* MUZTrackProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZTrackProfileViewController.m; sourceTree = "<group>"; };
+		956D9C861D857B0C00BC1200 /* MUZTrackCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZTrackCellViewModel.h; sourceTree = "<group>"; };
+		956D9C871D857B0C00BC1200 /* MUZTrackCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZTrackCellViewModel.m; sourceTree = "<group>"; };
+		956D9C881D857B0C00BC1200 /* MUZTracksControllerViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZTracksControllerViewModel.h; sourceTree = "<group>"; };
+		956D9C891D857B0C00BC1200 /* MUZTracksControllerViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZTracksControllerViewModel.m; sourceTree = "<group>"; };
+		956D9C8A1D857B0C00BC1200 /* MUZTracksSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZTracksSearchBar.h; sourceTree = "<group>"; };
+		956D9C8B1D857B0C00BC1200 /* MUZTracksSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZTracksSearchBar.m; sourceTree = "<group>"; };
+		956D9C8C1D857B0C00BC1200 /* MUZTracksTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZTracksTableViewCell.h; sourceTree = "<group>"; };
+		956D9C8D1D857B0C00BC1200 /* MUZTracksTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZTracksTableViewCell.m; sourceTree = "<group>"; };
+		956D9C8E1D857B0C00BC1200 /* MUZTracksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZTracksViewController.h; sourceTree = "<group>"; };
+		956D9C8F1D857B0C00BC1200 /* MUZTracksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZTracksViewController.m; sourceTree = "<group>"; };
+		95713F7C1D8187BC00E64A5A /* MusicSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95713F971D818C1100E64A5A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95713F981D818C1100E64A5A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95713FA01D818C1100E64A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95713FA21D818C1100E64A5A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95713FA31D818C1100E64A5A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95713FA91D818C6800E64A5A /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		95713FAB1D818CAD00E64A5A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		95713FAD1D81B64E00E64A5A /* MUZNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZNetworkManager.h; sourceTree = "<group>"; };
+		95713FAE1D81B64E00E64A5A /* MUZNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZNetworkManager.m; sourceTree = "<group>"; };
+		95713FB41D81C84700E64A5A /* MUZDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZDatabaseManager.h; sourceTree = "<group>"; };
+		95713FB51D81C84700E64A5A /* MUZDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZDatabaseManager.m; sourceTree = "<group>"; };
+		95713FB91D82A9EC00E64A5A /* MUZDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MUZDataModel.xcdatamodel; sourceTree = "<group>"; };
+		95713FBB1D82ABA300E64A5A /* MusicSearch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicSearch.pch; sourceTree = "<group>"; };
+		95713FBF1D82BACA00E64A5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		95713FC11D82BAEC00E64A5A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		95713FC21D82CEBC00E64A5A /* MUZResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MUZResponse.h; path = Responses/MUZResponse.h; sourceTree = "<group>"; };
+		95713FC31D82CEBC00E64A5A /* MUZResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MUZResponse.m; path = Responses/MUZResponse.m; sourceTree = "<group>"; };
+		95713FC61D82CF0800E64A5A /* MUZFetchTracksResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MUZFetchTracksResponse.h; path = Responses/MUZFetchTracksResponse.h; sourceTree = "<group>"; };
+		95713FC71D82CF0800E64A5A /* MUZFetchTracksResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MUZFetchTracksResponse.m; path = Responses/MUZFetchTracksResponse.m; sourceTree = "<group>"; };
+		95713FCB1D82D53C00E64A5A /* MUZSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZSearch.h; sourceTree = "<group>"; };
+		95713FCC1D82D53C00E64A5A /* MUZSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZSearch.m; sourceTree = "<group>"; };
+		95713FCF1D82D53C00E64A5A /* MUZTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZTrack.h; sourceTree = "<group>"; };
+		95713FD01D82D53C00E64A5A /* MUZTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZTrack.m; sourceTree = "<group>"; };
+		95713FD61D82FF0100E64A5A /* MUZManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZManagedObject.h; sourceTree = "<group>"; };
+		95713FD71D82FF0100E64A5A /* MUZManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUZManagedObject.m; sourceTree = "<group>"; };
+		95713FDA1D84033200E64A5A /* MUZManagedObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUZManagedObjectProtocol.h; sourceTree = "<group>"; };
+		95713FDB1D8411F400E64A5A /* MUZFetchedResultsControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MUZFetchedResultsControllerDataSource.h; path = Helpers/MUZFetchedResultsControllerDataSource.h; sourceTree = "<group>"; };
+		95713FDC1D8411F400E64A5A /* MUZFetchedResultsControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MUZFetchedResultsControllerDataSource.m; path = Helpers/MUZFetchedResultsControllerDataSource.m; sourceTree = "<group>"; };
+		C8027BDB01FCAEC9E9460F43 /* libPods-MusicSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95713F791D8187BC00E64A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88F2ECBF4A097A1EFD3651C /* libPods-MusicSearch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54B3F4FC7998009120612BDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80F839DBFFA1ACB649C31952 /* Pods-MusicSearch.debug.xcconfig */,
+				0A398A7045CBF55CB62ACDAE /* Pods-MusicSearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		954763C61D8593570063E643 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				95713FDA1D84033200E64A5A /* MUZManagedObjectProtocol.h */,
+				95713FD61D82FF0100E64A5A /* MUZManagedObject.h */,
+				95713FD71D82FF0100E64A5A /* MUZManagedObject.m */,
+				95713FCB1D82D53C00E64A5A /* MUZSearch.h */,
+				95713FCC1D82D53C00E64A5A /* MUZSearch.m */,
+				95713FCF1D82D53C00E64A5A /* MUZTrack.h */,
+				95713FD01D82D53C00E64A5A /* MUZTrack.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		954763CB1D8595D00063E643 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				954763C81D8595CB0063E643 /* UIViewController+MUZAlert.h */,
+				954763C91D8595CB0063E643 /* UIViewController+MUZAlert.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		956D9C441D844B6200BC1200 /* Fetched Results Controller DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				95713FDB1D8411F400E64A5A /* MUZFetchedResultsControllerDataSource.h */,
+				95713FDC1D8411F400E64A5A /* MUZFetchedResultsControllerDataSource.m */,
+			);
+			name = "Fetched Results Controller DataSource";
+			sourceTree = "<group>";
+		};
+		956D9C451D844BDF00BC1200 /* ViewControllerTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				956D9C6B1D847BA900BC1200 /* MUZViewControllerTransitionStyleConfiguration.h */,
+				956D9C6C1D847BA900BC1200 /* MUZViewControllerTransitionStyleConfiguration.m */,
+				956D9C581D8462AE00BC1200 /* MUZViewControllerTransitionPresenter.h */,
+				956D9C591D8462AE00BC1200 /* MUZViewControllerTransitionPresenter.m */,
+				956D9C5B1D84632D00BC1200 /* MUZViewControllerTransition.h */,
+				956D9C5C1D84632D00BC1200 /* MUZViewControllerTransition.m */,
+				956D9C621D8469DB00BC1200 /* MUZViewControllerBounceDownTransition.h */,
+				956D9C631D8469DB00BC1200 /* MUZViewControllerBounceDownTransition.m */,
+				956D9C5E1D84654F00BC1200 /* MUZViewControllerPresentationManager.h */,
+				956D9C5F1D84654F00BC1200 /* MUZViewControllerPresentationManager.m */,
+				956D9C651D846F2E00BC1200 /* MUZViewControllerDefaultPresentationController.h */,
+				956D9C661D846F2E00BC1200 /* MUZViewControllerDefaultPresentationController.m */,
+			);
+			name = ViewControllerTransitions;
+			path = Helpers/ViewControllerTransitions;
+			sourceTree = "<group>";
+		};
+		956D9C771D857B0C00BC1200 /* Search View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				956D9C9E1D857B5C00BC1200 /* Search Cell */,
+				956D9C9D1D857B4F00BC1200 /* Presentation Controller */,
+				956D9C7E1D857B0C00BC1200 /* MUZSearchViewController.h */,
+				956D9C7F1D857B0C00BC1200 /* MUZSearchViewController.m */,
+				956D9C7A1D857B0C00BC1200 /* MUZSearchControllerViewModel.h */,
+				956D9C7B1D857B0C00BC1200 /* MUZSearchControllerViewModel.m */,
+			);
+			path = "Search View Controller";
+			sourceTree = "<group>";
+		};
+		956D9C821D857B0C00BC1200 /* Track Profile View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				956D9C831D857B0C00BC1200 /* MUZTrackProfileViewController.h */,
+				956D9C841D857B0C00BC1200 /* MUZTrackProfileViewController.m */,
+			);
+			path = "Track Profile View Controller";
+			sourceTree = "<group>";
+		};
+		956D9C851D857B0C00BC1200 /* Tracks View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				956D9C9B1D857B1F00BC1200 /* Track Cell */,
+				956D9C9C1D857B2B00BC1200 /* Search Bar */,
+				956D9C8E1D857B0C00BC1200 /* MUZTracksViewController.h */,
+				956D9C8F1D857B0C00BC1200 /* MUZTracksViewController.m */,
+				956D9C881D857B0C00BC1200 /* MUZTracksControllerViewModel.h */,
+				956D9C891D857B0C00BC1200 /* MUZTracksControllerViewModel.m */,
+			);
+			path = "Tracks View Controller";
+			sourceTree = "<group>";
+		};
+		956D9C9B1D857B1F00BC1200 /* Track Cell */ = {
+			isa = PBXGroup;
+			children = (
+				956D9C861D857B0C00BC1200 /* MUZTrackCellViewModel.h */,
+				956D9C871D857B0C00BC1200 /* MUZTrackCellViewModel.m */,
+				956D9C8C1D857B0C00BC1200 /* MUZTracksTableViewCell.h */,
+				956D9C8D1D857B0C00BC1200 /* MUZTracksTableViewCell.m */,
+			);
+			name = "Track Cell";
+			sourceTree = "<group>";
+		};
+		956D9C9C1D857B2B00BC1200 /* Search Bar */ = {
+			isa = PBXGroup;
+			children = (
+				956D9C8A1D857B0C00BC1200 /* MUZTracksSearchBar.h */,
+				956D9C8B1D857B0C00BC1200 /* MUZTracksSearchBar.m */,
+			);
+			name = "Search Bar";
+			sourceTree = "<group>";
+		};
+		956D9C9D1D857B4F00BC1200 /* Presentation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				956D9C801D857B0C00BC1200 /* MUZSearchViewControllerPresentationController.h */,
+				956D9C811D857B0C00BC1200 /* MUZSearchViewControllerPresentationController.m */,
+			);
+			name = "Presentation Controller";
+			sourceTree = "<group>";
+		};
+		956D9C9E1D857B5C00BC1200 /* Search Cell */ = {
+			isa = PBXGroup;
+			children = (
+				956D9C781D857B0C00BC1200 /* MUZSearchCellViewModel.h */,
+				956D9C791D857B0C00BC1200 /* MUZSearchCellViewModel.m */,
+				956D9C7C1D857B0C00BC1200 /* MUZSearchTableViewCell.h */,
+				956D9C7D1D857B0C00BC1200 /* MUZSearchTableViewCell.m */,
+			);
+			name = "Search Cell";
+			sourceTree = "<group>";
+		};
+		95713F731D8187BC00E64A5A = {
+			isa = PBXGroup;
+			children = (
+				95713F7E1D8187BC00E64A5A /* MusicSearch */,
+				95713F7D1D8187BC00E64A5A /* Products */,
+				54B3F4FC7998009120612BDE /* Pods */,
+				C90009EEB6B7B01B7171E963 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95713F7D1D8187BC00E64A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95713F7C1D8187BC00E64A5A /* MusicSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95713F7E1D8187BC00E64A5A /* MusicSearch */ = {
+			isa = PBXGroup;
+			children = (
+				95713F961D818C1100E64A5A /* Classes */,
+				95713F9F1D818C1100E64A5A /* Resources */,
+				95713FA11D818C1100E64A5A /* Supporting Files */,
+			);
+			path = MusicSearch;
+			sourceTree = "<group>";
+		};
+		95713F961D818C1100E64A5A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95713F971D818C1100E64A5A /* AppDelegate.h */,
+				95713F981D818C1100E64A5A /* AppDelegate.m */,
+				95713F9D1D818C1100E64A5A /* Models */,
+				95713F9E1D818C1100E64A5A /* Views */,
+				95713F9C1D818C1100E64A5A /* Managers */,
+				95713F991D818C1100E64A5A /* Cotrollers */,
+				95713FDE1D8411F900E64A5A /* Helpers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		95713F991D818C1100E64A5A /* Cotrollers */ = {
+			isa = PBXGroup;
+			children = (
+				95713FAB1D818CAD00E64A5A /* Main.storyboard */,
+				956D9C731D855A6500BC1200 /* MUZDependencyProtocols.h */,
+				956D9C851D857B0C00BC1200 /* Tracks View Controller */,
+				956D9C771D857B0C00BC1200 /* Search View Controller */,
+				956D9C821D857B0C00BC1200 /* Track Profile View Controller */,
+				954763CB1D8595D00063E643 /* Categories */,
+			);
+			path = Cotrollers;
+			sourceTree = "<group>";
+		};
+		95713F9C1D818C1100E64A5A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				95713FB31D81C82300E64A5A /* Network */,
+				95713FB71D81C84B00E64A5A /* Database */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		95713F9D1D818C1100E64A5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				954763C71D85937A0063E643 /* MUZConstants.h */,
+				954763CC1D85975A0063E643 /* MUZConstants.m */,
+				954763C61D8593570063E643 /* Data */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95713F9E1D818C1100E64A5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95713F9F1D818C1100E64A5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95713FA01D818C1100E64A5A /* Assets.xcassets */,
+				95713FA91D818C6800E64A5A /* Launch Screen.storyboard */,
+				95713FC01D82BACA00E64A5A /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		95713FA11D818C1100E64A5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95713FA21D818C1100E64A5A /* Info.plist */,
+				95713FA31D818C1100E64A5A /* main.m */,
+				95713FBB1D82ABA300E64A5A /* MusicSearch.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95713FB31D81C82300E64A5A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				95713FAD1D81B64E00E64A5A /* MUZNetworkManager.h */,
+				95713FAE1D81B64E00E64A5A /* MUZNetworkManager.m */,
+				95713FC51D82CEC100E64A5A /* Responses */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		95713FB71D81C84B00E64A5A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				95713FB41D81C84700E64A5A /* MUZDatabaseManager.h */,
+				95713FB51D81C84700E64A5A /* MUZDatabaseManager.m */,
+				95713FB81D82A9EC00E64A5A /* MUZDataModel.xcdatamodeld */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		95713FC51D82CEC100E64A5A /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				95713FC21D82CEBC00E64A5A /* MUZResponse.h */,
+				95713FC31D82CEBC00E64A5A /* MUZResponse.m */,
+				95713FC61D82CF0800E64A5A /* MUZFetchTracksResponse.h */,
+				95713FC71D82CF0800E64A5A /* MUZFetchTracksResponse.m */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
+		95713FDE1D8411F900E64A5A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				956D9C451D844BDF00BC1200 /* ViewControllerTransitions */,
+				956D9C441D844B6200BC1200 /* Fetched Results Controller DataSource */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C90009EEB6B7B01B7171E963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8027BDB01FCAEC9E9460F43 /* libPods-MusicSearch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95713F7B1D8187BC00E64A5A /* MusicSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95713F931D8187BC00E64A5A /* Build configuration list for PBXNativeTarget "MusicSearch" */;
+			buildPhases = (
+				11D8619760FBF7C5EB43582B /* [CP] Check Pods Manifest.lock */,
+				95713F781D8187BC00E64A5A /* Sources */,
+				95713F791D8187BC00E64A5A /* Frameworks */,
+				95713F7A1D8187BC00E64A5A /* Resources */,
+				C84815EF40F5162F8D16EC84 /* [CP] Embed Pods Frameworks */,
+				D4FF5B6AB500511ECF1120F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicSearch;
+			productName = MusicSearch;
+			productReference = 95713F7C1D8187BC00E64A5A /* MusicSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95713F741D8187BC00E64A5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MUZ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nickolay Migel";
+				TargetAttributes = {
+					95713F7B1D8187BC00E64A5A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 95713F771D8187BC00E64A5A /* Build configuration list for PBXProject "MusicSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+			);
+			mainGroup = 95713F731D8187BC00E64A5A;
+			productRefGroup = 95713F7D1D8187BC00E64A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95713F7B1D8187BC00E64A5A /* MusicSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95713F7A1D8187BC00E64A5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95713FBE1D82BACA00E64A5A /* Localizable.strings in Resources */,
+				95713FAA1D818C6800E64A5A /* Launch Screen.storyboard in Resources */,
+				95713FA61D818C1100E64A5A /* Assets.xcassets in Resources */,
+				95713FAC1D818CAD00E64A5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11D8619760FBF7C5EB43582B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C84815EF40F5162F8D16EC84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicSearch/Pods-MusicSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FF5B6AB500511ECF1120F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicSearch/Pods-MusicSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95713F781D8187BC00E64A5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956D9C931D857B0C00BC1200 /* MUZSearchViewController.m in Sources */,
+				954763CA1D8595CB0063E643 /* UIViewController+MUZAlert.m in Sources */,
+				95713FD41D82D53C00E64A5A /* MUZTrack.m in Sources */,
+				95713FD81D82FF0100E64A5A /* MUZManagedObject.m in Sources */,
+				956D9C9A1D857B0C00BC1200 /* MUZTracksViewController.m in Sources */,
+				956D9C941D857B0C00BC1200 /* MUZSearchViewControllerPresentationController.m in Sources */,
+				956D9C671D846F2E00BC1200 /* MUZViewControllerDefaultPresentationController.m in Sources */,
+				95713FC81D82CF0800E64A5A /* MUZFetchTracksResponse.m in Sources */,
+				956D9C911D857B0C00BC1200 /* MUZSearchControllerViewModel.m in Sources */,
+				95713FC41D82CEBC00E64A5A /* MUZResponse.m in Sources */,
+				95713FD21D82D53C00E64A5A /* MUZSearch.m in Sources */,
+				956D9C6D1D847BA900BC1200 /* MUZViewControllerTransitionStyleConfiguration.m in Sources */,
+				956D9C981D857B0C00BC1200 /* MUZTracksSearchBar.m in Sources */,
+				956D9C921D857B0C00BC1200 /* MUZSearchTableViewCell.m in Sources */,
+				954763CD1D85975A0063E643 /* MUZConstants.m in Sources */,
+				956D9C901D857B0C00BC1200 /* MUZSearchCellViewModel.m in Sources */,
+				95713FDD1D8411F400E64A5A /* MUZFetchedResultsControllerDataSource.m in Sources */,
+				95713FAF1D81B64E00E64A5A /* MUZNetworkManager.m in Sources */,
+				956D9C601D84654F00BC1200 /* MUZViewControllerPresentationManager.m in Sources */,
+				956D9C971D857B0C00BC1200 /* MUZTracksControllerViewModel.m in Sources */,
+				95713FBA1D82A9EC00E64A5A /* MUZDataModel.xcdatamodeld in Sources */,
+				956D9C5D1D84632D00BC1200 /* MUZViewControllerTransition.m in Sources */,
+				956D9C5A1D8462AE00BC1200 /* MUZViewControllerTransitionPresenter.m in Sources */,
+				956D9C641D8469DB00BC1200 /* MUZViewControllerBounceDownTransition.m in Sources */,
+				956D9C991D857B0C00BC1200 /* MUZTracksTableViewCell.m in Sources */,
+				95713FB61D81C84700E64A5A /* MUZDatabaseManager.m in Sources */,
+				956D9C951D857B0C00BC1200 /* MUZTrackProfileViewController.m in Sources */,
+				95713FA81D818C1100E64A5A /* main.m in Sources */,
+				95713FA41D818C1100E64A5A /* AppDelegate.m in Sources */,
+				956D9C961D857B0C00BC1200 /* MUZTrackCellViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95713FC01D82BACA00E64A5A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95713FBF1D82BACA00E64A5A /* en */,
+				95713FC11D82BAEC00E64A5A /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95713F911D8187BC00E64A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95713F921D8187BC00E64A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95713F941D8187BC00E64A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F839DBFFA1ACB649C31952 /* Pods-MusicSearch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MusicSearch/Supporting Files/MusicSearch.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MusicSearch/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mignick.MusicSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95713F951D8187BC00E64A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A398A7045CBF55CB62ACDAE /* Pods-MusicSearch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MusicSearch/Supporting Files/MusicSearch.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MusicSearch/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mignick.MusicSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95713F771D8187BC00E64A5A /* Build configuration list for PBXProject "MusicSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95713F911D8187BC00E64A5A /* Debug */,
+				95713F921D8187BC00E64A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95713F931D8187BC00E64A5A /* Build configuration list for PBXNativeTarget "MusicSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95713F941D8187BC00E64A5A /* Debug */,
+				95713F951D8187BC00E64A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95713FB81D82A9EC00E64A5A /* MUZDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95713FB91D82A9EC00E64A5A /* MUZDataModel.xcdatamodel */,
+			);
+			currentVersion = 95713FB91D82A9EC00E64A5A /* MUZDataModel.xcdatamodel */;
+			path = MUZDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95713F741D8187BC00E64A5A /* Project object */;
+}

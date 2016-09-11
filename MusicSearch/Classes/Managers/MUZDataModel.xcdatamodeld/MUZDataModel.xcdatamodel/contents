@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="Search" representedClassName="MUZSearch" syncable="YES">
+        <attribute name="query" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="searchTime" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <relationship name="tracks" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Track" inverseName="searches" inverseEntity="Track" syncable="YES"/>
+    </entity>
+    <entity name="Track" representedClassName="MUZTrack" syncable="YES">
+        <attribute name="artistId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="artistName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="artworkUrl30" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="artworkUrl60" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="artworkUrl100" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="collectionId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="collectionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="genre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="releaseDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="trackId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="trackName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="searches" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Search" inverseName="tracks" inverseEntity="Search" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="artistId"/>
+                <index value="collectionId"/>
+                <index value="trackId"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <elements>
+        <element name="Search" positionX="-371" positionY="-31" width="128" height="88"/>
+        <element name="Track" positionX="-171" positionY="-9" width="128" height="223"/>
+    </elements>
+</model>
